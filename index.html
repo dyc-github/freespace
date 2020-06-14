@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body style="background-color: #f5f5f5">
+
+<div style="height: 100px; background-color:#161b2b">
+</div>
+
+
+<div class="row container-fluid">
+    <div class="col">
+        <h3 class="my-3">
+            These items may fit into your shipment.
+        </h3>
+
+        <div class="col">
+
+
+            <div class="mx-3 my-3">
+                <p class="ml-3 mb-1" id="containerTitle1">
+                    Container 1
+                </p>
+                <div class="row container mb-3" style="height: fit-content" id="itemContainer1">
+                    <!--template is not specific to itemContainer1 and applies to all containers-->
+                    <template id="itemTemplate">
+                        <div class="mx-2 rounded-lg col" style="background-color:#d1d1d1 ">
+                            <a href="https://www.amazon.com/Characters-Keychain-Including-Optional-Character/dp/B07ZT37HWD/ref=sr_1_15?dchild=1&keywords=hollow+knight&qid=1592117174&sr=8-15">
+                                <h6 class="my-3" id="title">
+                                    item title and description that hopefully wraps around and scales in size
+                                </h6>
+                                <img class="img-fluid" src="https://m.media-amazon.com/images/I/51-zr1UuMFL._AC_UL640_QL65_.jpg" alt="product image">
+
+                            </a>
+                            <h4 class="my-3" id="price">
+                                $12.99
+                            </h4>
+                        </div>
+                    </template>
+
+                </div>
+
+                <p class="ml-3 mb-1" id="containerTitle2">
+                    Container 2
+                </p>
+                <div class="row container mb-3" style="height: fit-content" id="itemContainer2">
+                    <!--tofill-->
+                </div>
+
+                <p class="ml-3 mb-1" id="containerTitle3">
+                    Container 3
+                </p>
+                <div class="row container mb-3" style="height: fit-content" id="itemContainer3">
+                    <!--tofill-->
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!--    Shipping Order-->
+    <div class="px-4" style=" width: 360px;">
+        <h1 class=my-3>Your Shipment</h1>
+        <div class="text-center my-3">
+            <img class="img-fluid" src="images/a-potat-flew.gif" alt="a potato flew around the room">
+        </div>
+        <div class="form-check my-3">
+            <input type="checkbox" class="form-check-input" id="sameDayCheck">
+            <label class="form-check-label" for="sameDayCheck">Would you like to receive your items on the same
+                day?</label>
+        </div>
+        <button type="button my-3" class="btn btn-warning btn-block">
+            Proceed to Checkout
+        </button>
+    </div>
+
+</div>
+
+
+<!--<div class= "row">-->
+
+<!--    <div class="col">-->
+<!--        <div class="row">-->
+<!--            <h2>-->
+<!--                item 1-->
+<!--            </h2>-->
+<!--            <h2 class="text-right">-->
+<!--                20.00-->
+<!--            </h2>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="col">-->
+<!--        <h2></h2>-->
+<!--    </div>-->
+
+<!--</div>-->
+<script src="scripts/main.js"></script>
+</body>
+</html>
