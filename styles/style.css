@@ -1,0 +1,10 @@
+line.volume-line {
+    stroke: #666;
+    stroke-dasharray: 2,1;
+    stroke-width: 1;
+}
+
+polygon.volume-line{
+    stroke: #2b2b2b;
+    stroke-width: 1;
+}
